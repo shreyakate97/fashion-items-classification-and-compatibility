@@ -1,6 +1,12 @@
 # fashion-items-classification-and-compatibility
 
-Data transformation steps
+Two tasks have been done: Classification and Compatibilty check
+
+The data is transformed for classification using data.py. 
+
+For compatibility check, I have made some changes to the data as explained below.
+
+Data transformation steps for compatibility: data_compat.py
 
 1. I wrote a python script to create 2 .txt files (train_compatibility.txt and valid_compatibility.txt) where I stored pairs of image ids in each line and the corresponding labels in this order:
 label image1_id image2_id
